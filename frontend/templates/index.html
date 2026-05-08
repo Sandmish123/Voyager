@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Voyager — Generate hyper-personalized travel itineraries. Tell us your destination, budget, and interests. We handle the rest." />
+  <meta name="theme-color" content="#4338CA" />
+  <title>Voyager — Plan Your Perfect Trip</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" role="navigation" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Voyager — Home">
+        <svg class="logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M14 4 L16 12 L14 11 L12 12 Z" fill="currentColor"/>
+          <circle cx="14" cy="14" r="2" fill="currentColor"/>
+          <path d="M4 14 L12 12 L11 14 L12 16 Z" fill="currentColor" opacity="0.4"/>
+          <path d="M24 14 L16 16 L17 14 L16 12 Z" fill="currentColor" opacity="0.4"/>
+          <path d="M14 24 L12 16 L14 17 L16 16 Z" fill="currentColor" opacity="0.4"/>
+        </svg>
+        <span class="logo-text">Voyager </span>
+      </a>
+
+      <button class="nav-mobile-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="hero" aria-labelledby="hero-headline">
+      <div class="hero-aurora" aria-hidden="true">
+        <div class="aurora-blob aurora-blob--1"></div>
+        <div class="aurora-blob aurora-blob--2"></div>
+        <div class="aurora-blob aurora-blob--3"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-eyebrow" aria-hidden="true">
+          <span class="eyebrow-dot"></span>
+          Itinerary Engine
+        </div>
+
+        <h1 class="hero-headline" id="hero-headline">
+          Plan Your<br />
+          <em>Perfect Trip</em>
+        </h1>
+
+        <p class="hero-subtitle">
+          Describe your dream destination, set your budget, and tell us what excites you. 
+          Our crafts a personalized day-by-day itinerary in seconds.
+        </p>
+
+        <div class="hero-trust-row" aria-label="Social proof">
+          <div class="trust-avatars" aria-hidden="true">
+            <div class="avatar" style="background: #C7D2FE;"></div>
+            <div class="avatar" style="background: #DDD6FE;"></div>
+            <div class="avatar" style="background: #BAE6FD;"></div>
+            <div class="avatar" style="background: #D1FAE5;"></div>
+          </div>
+          <p class="trust-text"><strong>12,000+</strong> trips generated this month</p>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll-cue" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         HOW IT WORKS
+    ═══════════════════════════════════════════ -->
+    <section class="how-it-works" id="how-it-works" aria-labelledby="hiw-title">
+      <div class="container">
+        <h2 class="section-eyebrow" id="hiw-title">How Voyager Works</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" fill="rgba(99,102,241,0.1)"/><path d="M10 16l4 4 8-8" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="step-num">01</span>
+            <h3>Tell us your dream</h3>
+            <p>Enter destination, trip length, budget, and the experiences that matter most to you.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" fill="rgba(99,102,241,0.1)"/><path d="M16 10v6l4 2" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <span class="step-num">02</span>
+            <h3>Lets builds your plan</h3>
+            <p>Our model analyses thousands of routes and optimizes for your unique preferences in real time.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" fill="rgba(99,102,241,0.1)"/><path d="M10 13h12M10 17h8M10 21h10" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <span class="step-num">03</span>
+            <h3>Explore & refine</h3>
+            <p>Get a detailed day-by-day itinerary with timings, costs, and smart local insights.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PLANNER FORM
+    ═══════════════════════════════════════════ -->
+    <section class="planner-section" id="planner" aria-labelledby="planner-title">
+      <div class="container">
+        <div class="planner-header">
+          <h2 class="section-title" id="planner-title">Plan Your Trip</h2>
+          <p class="section-subtitle">Fill in your details and let us do the heavy lifting.</p>
+        </div>
+
+        <div class="planner-card">
+          <form class="planner-form" id="plannerForm" novalidate aria-label="Trip planner form">
+
+            <!-- Destination -->
+            <div class="form-group form-group--full">
+              <label class="form-label" for="destination">Where do you want to go?</label>
+              <div class="input-wrapper">
+                <span class="input-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6zm0 8a2 2 0 100-4 2 2 0 000 4z" fill="currentColor"/></svg>
+                </span>
+                <input
+                  type="text"
+                  id="destination"
+                  name="destination"
+                  class="form-input"
+                  placeholder="e.g. Tokyo, Japan"
+                  autocomplete="off"
+                  required
+                  aria-required="true"
+                  aria-describedby="destination-hint"
+                />
+              </div>
+              <span class="form-hint" id="destination-hint">City, country, or region</span>
+            </div>
+
+            <!-- Days + Budget row -->
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="days">Number of Days</label>
+                <div class="input-wrapper">
+                  <span class="input-icon" aria-hidden="true">
+                    <svg viewBox="0 0 20 20" fill="none"><rect x="3" y="4" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h14M7 2v4M13 2v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </span>
+                  <input
+                    type="number"
+                    id="days"
+                    name="days"
+                    class="form-input"
+                    placeholder="5"
+                    min="1"
+                    max="30"
+                    required
+                    aria-required="true"
+                    aria-describedby="days-hint"
+                  />
+                </div>
+                <span class="form-hint" id="days-hint">1 – 30 days</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="budget">Total Budget (USD)</label>
+                <div class="input-wrapper">
+                  <span class="input-icon" aria-hidden="true">
+                    <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v1m0 6v1M7.5 8.5a2.5 1.5 0 015 0c0 1-1.5 1.5-2.5 1.5s-2.5.5-2.5 1.5a2.5 1.5 0 005 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </span>
+                  <input
+                    type="number"
+                    id="budget"
+                    name="budget"
+                    class="form-input"
+                    placeholder="1500"
+                    min="100"
+                    required
+                    aria-required="true"
+                    aria-describedby="budget-hint"
+                  />
+                </div>
+                <span class="form-hint" id="budget-hint">All-inclusive estimate</span>
+              </div>
+            </div>
+
+            <!-- Travel Style -->
+            <div class="form-group form-group--full">
+              <fieldset class="fieldset-no-border">
+                <legend class="form-label">Travel Style</legend>
+                <div class="segmented-control" role="radiogroup">
+                  <label class="segment">
+                    <input type="radio" name="travel_style" value="budget" checked />
+                    <span>🎒 Budget</span>
+                  </label>
+                  <label class="segment">
+                    <input type="radio" name="travel_style" value="mid" />
+                    <span>💼 Mid-range</span>
+                  </label>
+                  <label class="segment">
+                    <input type="radio" name="travel_style" value="luxury" />
+                    <span>✨ Luxury</span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+
+            <!-- Interests -->
+            <div class="form-group form-group--full">
+              <fieldset class="fieldset-no-border">
+                <legend class="form-label">Interests <span class="form-hint-inline">(choose any)</span></legend>
+                <div class="interest-chips" id="interestChips" role="group" aria-label="Select your travel interests">
+                  <button type="button" class="chip" data-value="nature" aria-pressed="false">🌿 Nature</button>
+                  <button type="button" class="chip" data-value="culture" aria-pressed="false">🏛️ Culture</button>
+                  <button type="button" class="chip" data-value="food" aria-pressed="false">🍜 Food & Drink</button>
+                  <button type="button" class="chip" data-value="adventure" aria-pressed="false">🧗 Adventure</button>
+                  <button type="button" class="chip" data-value="art" aria-pressed="false">🎨 Art & Design</button>
+                  <button type="button" class="chip" data-value="nightlife" aria-pressed="false">🌙 Nightlife</button>
+                  <button type="button" class="chip" data-value="shopping" aria-pressed="false">🛍️ Shopping</button>
+                  <button type="button" class="chip" data-value="history" aria-pressed="false">📜 History</button>
+                  <button type="button" class="chip" data-value="wellness" aria-pressed="false">🧘 Wellness</button>
+                  <button type="button" class="chip" data-value="photography" aria-pressed="false">📸 Photography</button>
+                </div>
+              </fieldset>
+            </div>
+
+            <!-- Special requests -->
+            <div class="form-group form-group--full">
+              <label class="form-label" for="notes">Special Requests <span class="form-hint-inline">(optional)</span></label>
+              <div class="input-wrapper input-wrapper--textarea">
+                <textarea
+                  id="notes"
+                  name="notes"
+                  class="form-input form-textarea"
+                  placeholder="e.g. We're travelling with a toddler, prefer morning starts, vegetarian meals…"
+                  rows="3"
+                  aria-describedby="notes-hint"
+                ></textarea>
+              </div>
+              <span class="form-hint" id="notes-hint">Any additional context helps to personalise your trip</span>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-footer">
+              <button type="submit" class="btn btn-primary btn-lg btn-submit" id="submitBtn" aria-label="Generate my trip itinerary">
+                <svg class="btn-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2l2.4 5.6L18 10l-5.6 2.4L10 18l-2.4-5.6L2 10l5.6-2.4L10 2z" fill="currentColor"/></svg>
+                Generate My Itinerary
+              </button>
+              <p class="form-disclaimer">Free to use · No sign-up required · Results in ~10 seconds</p>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         LOADING STATE
+    ═══════════════════════════════════════════ -->
+    <section class="loading-section hidden" id="loadingSection" aria-live="polite" aria-label="Generating your travel itinerary" aria-atomic="true">
+      <div class="container">
+        <div class="loading-card">
+          <div class="loading-rings" aria-hidden="true">
+            <div class="ring ring--1"></div>
+            <div class="ring ring--2"></div>
+            <div class="ring ring--3"></div>
+            <div class="ring-core">
+              <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 4l2.4 5.6L24 12l-5.6 2.4L16 20l-2.4-5.6L8 12l5.6-2.4L16 4z" fill="#4F46E5"/>
+              </svg>
+            </div>
+          </div>
+          <h2 class="loading-title" id="loadingTitle">Optimizing your travel experience...</h2>
+          <div class="loading-steps" aria-label="Generation progress">
+            <div class="loading-step loading-step--active" id="step1">
+              <span class="step-dot"></span>
+              <span>Analysing destination data</span>
+            </div>
+            <div class="loading-step" id="step2">
+              <span class="step-dot"></span>
+              <span>Matching your interests &amp; budget</span>
+            </div>
+            <div class="loading-step" id="step3">
+              <span class="step-dot"></span>
+              <span>Building day-by-day schedule</span>
+            </div>
+            <div class="loading-step" id="step4">
+              <span class="step-dot"></span>
+              <span>Adding local insights &amp; tips</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ITINERARY RESULTS
+    ═══════════════════════════════════════════ -->
+    <section class="results-section hidden" id="resultsSection" aria-labelledby="results-title">
+      <div class="container">
+
+        <!-- Trip Header -->
+        <div class="trip-header-card" id="tripHeader" role="banner">
+          <div class="trip-header-content">
+            <div class="trip-badge" id="tripBadge" aria-label="Trip destination badge">✈️</div>
+            <div class="trip-meta">
+              <h2 class="trip-title" id="results-title">Your Itinerary</h2>
+              <div class="trip-stats" id="tripStats" role="list" aria-label="Trip summary">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+          </div>
+          <div class="trip-budget-display" id="tripBudgetDisplay">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Day Cards Container -->
+        <div class="days-container" id="daysContainer" role="list" aria-label="Daily itinerary">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Action Row -->
+        <div class="results-actions">
+          <button class="btn btn-outline" id="regenerateBtn" aria-label="Generate a new itinerary with different options">
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10a6 6 0 016-6 6 6 0 014.243 1.757M16 10a6 6 0 01-6 6 6 6 0 01-4.243-1.757M16 4v4h-4M4 16v-4h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Regenerate
+          </button>
+          <button class="btn btn-primary" id="newTripBtn" aria-label="Plan a completely new trip">
+            Plan Another Trip
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SMART RECOMMENDATIONS
+    ═══════════════════════════════════════════ -->
+    <section class="recommendations-section hidden" id="recommendationsSection" aria-labelledby="rec-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="rec-title">Smart Insights</h2>
+          <p class="section-subtitle">Generated recommendations tailored to your trip</p>
+        </div>
+        <div class="recommendations-grid" id="recommendationsGrid" role="list" aria-label="Travel recommendations">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <a href="#" class="footer-logo" aria-label="Voyager  — Home">
+        <svg class="logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M14 4 L16 12 L14 11 L12 12 Z" fill="currentColor"/>
+          <circle cx="14" cy="14" r="2" fill="currentColor"/>
+        </svg>
+        <span>Voyager </span>
+      </a>
+      <p class="footer-tagline">Making every journey extraordinary.</p>
+      <p class="footer-copy">&copy; 2026 Voyager . Built with ♥ for explorers.</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
